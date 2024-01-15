@@ -1,3 +1,18 @@
+# Forking from my other repo
+```sh
+git clone git@github.com:shmolf/portainer-templates.git portainer-templates-wip
+cd portainter-templates-wip
+# Now, set the upstream for this WIP project
+git remote add upstream https://github.com/shmolf/portainer-templates.git
+# Now, set the new origin URL. This should match the URL of fresh Repo you'll need to create in Github.
+git remote set-url origin https://github.com/shmolf/portainer-templates-wip.git
+```
+
+The purpose of this, is that Portainer doesn't allow references to branches of a repo.
+So all changes must be merged with the `main` branch before being able to perform an end-to-end test.
+
+This project was created to consume all the trash PRs and changes, and port over the successfull changes to the main repo.
+
 # App Templates
 
 This repository hosts the official templates (**'Apps Templates'**) definitions for Portainer.
