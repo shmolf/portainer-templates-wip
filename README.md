@@ -30,19 +30,24 @@ https://raw.githubusercontent.com/shmolf/portainer-templates/main/templates-2.0.
 <!--
 Acquired by pasting the template JSON into browser DevTools, then running:
 ```js
-Array.from(new Set(json.templates.flatMap((t) => t.categories))).sort()
+console.log('- ' + Array.from(new Set(json.templates.flatMap((t) => t.categories))).sort().join('\n- '))
 ```
 -->
 - backup
 - docker
+- graphic design
+- pdf
 - photos
+- tools
 
 ## Application List
 <!--
 Acquired by pasting the template JSON into browser DevTools, then running:
 ```js
-Array.from(new Set(json.templates.map((t) => t.title))).sort()
+console.log('- ' + Array.from(new Set(json.templates.map((t) => t.title))).sort().join('\n- '))
 ```
 -->
 - Immich
+- Penpot (http)
+- Stirling PDF
 - Watchtower
