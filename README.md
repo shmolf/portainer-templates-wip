@@ -23,7 +23,7 @@ For more information about the template definition format and how to deploy your
 I highly recommend using [Lissy93's templates](https://github.com/Lissy93/portainer-templates).
 But if you want to use this repo's templates, you'll want to reference the following URL in the Portainer template settings:
 ```
-https://raw.githubusercontent.com/shmolf/portainer-templates/main/templates-2.0.json
+https://raw.githubusercontent.com/shmolf/portainer-templates-wip/main/templates-2.0.json
 ```
 
 ## Category List
