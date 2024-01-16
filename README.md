@@ -35,6 +35,7 @@ console.log('- ' + Array.from(new Set(json.templates.flatMap((t) => t.categories
 -->
 - backup
 - docker
+- games
 - graphic design
 - pdf
 - photos
@@ -50,4 +51,5 @@ console.log('- ' + Array.from(new Set(json.templates.map((t) => t.title))).sort(
 - Immich
 - Penpot (http)
 - Stirling PDF
+- Terraria Server
 - Watchtower
