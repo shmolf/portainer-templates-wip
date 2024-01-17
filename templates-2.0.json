@@ -247,7 +247,7 @@
       "name": "cockpit-cms",
       "categories": ["cms"],
       "description": "Cockpit is a headless CMS with an API-first approach that puts content first.",
-      "note": "Link to <a target='_blank' href='https://v1.getcockpit.com/'>Official documentation 🗗</a>.",
+      "note": "Link to <a target='_blank' href='https://v1.getcockpit.com/'>Official documentation 🗗</a>.<br>After deployment, continue to setup by visiting <a target='_blank' href='http://localhost:8080/install'>http://localhost:8080/install</a>",
       "logo": "https://raw.githubusercontent.com/shmolf/portainer-templates/main/assets/logos/cockpit.svg",
       "platform": "linux",
       "image": "agentejo/cockpit:latest",
