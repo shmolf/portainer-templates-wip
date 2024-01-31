@@ -18,6 +18,7 @@ This project was created to consume all the trash PRs and changes, and port over
 This repository hosts the official templates (**'Apps Templates'**) definitions for Portainer.
 
 For more information about the template definition format and how to deploy your own templates, see the [relevant documentation section](https://documentation.portainer.io/v2.0/templates/deploy_stack/).
+https://docs.portainer.io/advanced/app-templates/format
 
 
 I highly recommend using [Lissy93's templates](https://github.com/Lissy93/portainer-templates).
