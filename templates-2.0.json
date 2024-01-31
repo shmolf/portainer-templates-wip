@@ -253,6 +253,20 @@
       "image": "agentejo/cockpit:latest",
       "ports": ["8088:80/tcp"],
       "restart_policy": "unless-stopped"
+    },
+    {
+      "type": 1,
+      "title": "Home Assistant",
+      "name": "homeassistant",
+      "categories": ["iot", "dashboard"],
+      "description": "Open source home automation that puts local control and privacy first.",
+      "note": "Link to <a target='_blank' href='https://www.home-assistant.io/installation/alternative/#docker-compose'>Official documentation 🗗</a>",
+      "logo": "https://raw.githubusercontent.com/shmolf/portainer-templates/main/assets/logos/home-assistant.png",
+      "platform": "linux",
+      "image": "ghcr.io/home-assistant/home-assistant:stable",
+      "network_mode": "host",
+      "privileged": true,
+      "restart_policy": "unless-stopped"
     }
   ]
 }
