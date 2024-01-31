@@ -260,13 +260,29 @@
       "name": "homeassistant",
       "categories": ["iot", "dashboard"],
       "description": "Open source home automation that puts local control and privacy first.",
-      "note": "Link to <a target='_blank' href='https://www.home-assistant.io/installation/alternative/#docker-compose'>Official documentation 🗗</a>",
+      "note": "Link to <a target='_blank' href='https://www.home-assistant.io/installation/alternative/#docker-compose'>Official documentation 🗗</a>.<br>After deployment, continue to <a target='_blank' href='http://localhost:8123'>http://localhost:8123</a>",
       "logo": "https://raw.githubusercontent.com/shmolf/portainer-templates/main/assets/logos/home-assistant.png",
       "platform": "linux",
       "image": "ghcr.io/home-assistant/home-assistant:stable",
-      "network_mode": "host",
+      "network": "host",
       "privileged": true,
-      "restart_policy": "unless-stopped"
+      "restart_policy": "unless-stopped",
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/HomeAssistant",
+          "container": "/config"
+        },
+        {
+          "bind": "/etc/localtime",
+          "container": "/etc/localtime",
+          "readonly": true
+        },
+        {
+          "bind": "/run/dbus",
+          "container": "/run/dbus",
+          "readonly": true
+        }
+      ]
     }
   ]
 }
