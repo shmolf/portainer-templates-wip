@@ -277,30 +277,6 @@
           "readonly": true
         }
       ]
-    },
-    {
-      "type": 1,
-      "title": "Cosmos Server",
-      "name": "homeassistant",
-      "categories": ["docker", "dashboard"],
-      "description": "Cosmos is an easy way to self-host a Home Server, acting as a gateway and server manager.",
-      "note": "Link to <a target='_blank' href='https://github.com/azukaar/Cosmos-Server'>Official documentation 🗗</a>.",
-      "logo": "https://raw.githubusercontent.com/shmolf/portainer-templates/main/assets/logos/home-assistant.png",
-      "platform": "linux",
-      "image": "azukaar/cosmos-server:latest",
-      "ports": ["443:443", "4242:4242/udp"],
-      "privileged": true,
-      "restart_policy": "unless-stopped",
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/CosmosServer",
-          "container": "/config"
-        },
-        {
-          "bind": "/",
-          "container": "/mnt/host",
-        }
-      ]
     }
   ]
 }
