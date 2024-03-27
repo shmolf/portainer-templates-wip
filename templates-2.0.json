@@ -285,7 +285,7 @@
       "categories": ["tools"],
       "description": "Self-hosted terminal recording and playback",
       "logo": "https://raw.githubusercontent.com/shmolf/portainer-templates-wip/main/assets/logos/asciinema.svg",
-      "note": "<a target='_blank' href='https://docs.asciinema.org/getting-started/#self-hosting-the-server'>Application documentation 🗗</a>",
+      "note": "<a target='_blank' href='https://docs.asciinema.org/getting-started/#self-hosting-the-server'>Application documentation 🗗</a><br>For the application secret key, you can use the terminal command `<code>tr -dc A-Za-z0-9 </dev/urandom | head -c 64; echo</code>`",
       "env": [
         {
           "default": "1000",
@@ -312,8 +312,7 @@
         {
           "label": "Secret Application Key",
           "name": "SECRET_KEY",
-          "default": "please-change-this-to-a-random-secret",
-          "description": "You can use the terminal command `<code>tr -dc A-Za-z0-9 </dev/urandom | head -c 64; echo</code>`"
+          "default": "please-change-this-to-a-random-secret"
         }
       ],
       "platform": "linux",
