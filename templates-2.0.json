@@ -410,16 +410,6 @@
       "note": "<a target='_blank' href='https://infisical.com/docs/documentation/getting-started/introduction'>Application documentation 🗗</a>",
       "env": [
         {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "label": "PGID",
-          "name": "PGID",
-          "default": "1000"
-        },
-        {
           "default": "8078",
           "label": "Http Port",
           "name": "PORT"
@@ -428,7 +418,7 @@
           "default": "c6606cd2daad581c4de96531427aae0d",
           "label": "Encryption Key",
           "name": "ENCRYPTION_KEY",
-          "description": "Required key for platform encryption/decryption ops"
+          "description": "Required key for platform encryption/decryption ops. 32 character hex string"
         },
         {
           "default": "5lrMXKKWCVocS/uerPsl7V+TX/aaUaI7iDkgl3tSmLE=",
