@@ -486,90 +486,90 @@
           "default": "",
           "label": "Heroku Client ID (Optional)",
           "name": "CLIENT_ID_HEROKU",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
         {
           "default": "",
           "label": "Heroku Client Secret (Optional)",
           "name": "CLIENT_SECRET_HEROKU",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
 
         {
           "default": "",
           "label": "Vercel Client ID (Optional)",
           "name": "CLIENT_ID_VERCEL",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
         {
           "default": "",
           "label": "Vercel Client Secret (Optional)",
           "name": "CLIENT_SECRET_VERCEL",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
         {
           "default": "",
           "label": "Vercel Client Slug (Optional)",
           "name": "CLIENT_SLUG_VERCEL",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
 
         {
           "default": "",
           "label": "Netlify Client ID (Optional)",
           "name": "CLIENT_ID_NETLIFY",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
         {
           "default": "",
           "label": "Netlify Client Secret (Optional)",
           "name": "CLIENT_SECRET_NETLIFY",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
 
         {
           "default": "",
           "label": "GitHub Client ID (Optional)",
           "name": "CLIENT_ID_GITHUB",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
         {
           "default": "",
           "label": "GitHub Client Secret (Optional)",
           "name": "CLIENT_SECRET_GITHUB",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
 
         {
           "default": "",
           "label": "GitLab Client ID (Optional)",
           "name": "CLIENT_ID_GITLAB",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
         {
           "default": "",
           "label": "GitLab Client Secret (Optional)",
           "name": "CLIENT_SECRET_GITLAB",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
 
         {
           "default": "",
           "label": "Bitbucket Client ID (Optional)",
           "name": "CLIENT_ID_BITBUCKET",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
         {
           "default": "",
           "label": "Bitbucket Client Secret (Optional)",
           "name": "CLIENT_SECRET_BITBUCKET",
-          "description": "Optional only if integration is used"
+          "description": "Optional, only needed if integration is used"
         },
         {
           "default": "",
           "label": "Sentry DSN (Optional)",
           "name": "SENTRY_DSN",
-          "description": "Optional only if monitoring is used"
+          "description": "Optional, only needed if monitoring is used"
         },
 
 
@@ -577,66 +577,66 @@
           "default": "",
           "label": "Google Client ID (Optional)",
           "name": "CLIENT_ID_GOOGLE_LOGIN",
-          "description": "Optional only if SSO is used"
+          "description": "Optional, only needed if SSO is used"
         },
         {
           "default": "",
           "label": "Google Client Secret (Optional)",
           "name": "CLIENT_SECRET_GOOGLE_LOGIN",
-          "description": "Optional only if SSO is used"
+          "description": "Optional, only needed if SSO is used"
         },
 
         {
           "default": "",
           "label": "GitHub Client ID (Optional)",
           "name": "CLIENT_ID_GITHUB_LOGIN",
-          "description": "Optional only if SSO is used"
+          "description": "Optional, only needed if SSO is used"
         },
         {
           "default": "",
           "label": "GitHub Client Secret (Optional)",
           "name": "CLIENT_SECRET_GITHUB_LOGIN",
-          "description": "Optional only if SSO is used"
+          "description": "Optional, only needed if SSO is used"
         },
 
         {
           "default": "",
           "label": "GitLab Client ID (Optional)",
           "name": "CLIENT_ID_GITLAB_LOGIN",
-          "description": "Optional only if SSO is used"
+          "description": "Optional, only needed if SSO is used"
         },
         {
           "default": "",
           "label": "GitLab Client Secret (Optional)",
           "name": "CLIENT_SECRET_GITLAB_LOGIN",
-          "description": "Optional only if SSO is used"
+          "description": "Optional, only needed if SSO is used"
         },
 
         {
           "default": "",
           "label": "Captcha Secret (Optional)",
           "name": "CAPTCHA_SECRET",
-          "description": "Optional only if captcha is used"
+          "description": "Optional, only needed if captcha is used"
         },
 
         {
           "default": "",
           "label": "Captcha Site Key (Optional)",
           "name": "NEXT_PUBLIC_CAPTCHA_SITE_KEY",
-          "description": "Optional only if captcha is used"
+          "description": "Optional, only needed if captcha is used"
         },
 
         {
           "default": "",
           "label": "Plain API Key (Optional)",
           "name": "PLAIN_API_KEY",
-          "description": "Optional only if Plain is used"
+          "description": "Optional, only needed if Plain is used"
         },
         {
           "default": "",
           "label": "Plain Wish Label IDs (Optional)",
           "name": "PLAIN_WISH_LABEL_IDS",
-          "description": "Optional only if Plain is used"
+          "description": "Optional, only needed if Plain is used"
         }
       ],
       "platform": "linux",
